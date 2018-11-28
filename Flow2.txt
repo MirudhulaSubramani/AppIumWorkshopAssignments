@@ -1,0 +1,21 @@
+pseudocode for flow 2
+Load  the application homepage ==> http://www.amazon.in
+
+
+Click login link in home page   ==> By.id("nav-link-yourAccount").click()
+      |                                        |                                             
+      |->username(email or phnum)           By.id("ap_email").sendkeys("8296776369")
+      |->password                           By.id("ap_password")
+                                               |
+                                               |login with password or OTP
+                                               |enter OTP manually 
+
+                                            By.id("continue").click() 
+                                              |
+                                              |(lands in home page)
+                                  
+Search for products from homepage  ===>   By.id("twotabsearchtextbox")= handbags
+page                                        | Sendkeys(Keys.ENTER)
+
+Landing in search results page  ===>     Result page loaded 
+and land on search results page  

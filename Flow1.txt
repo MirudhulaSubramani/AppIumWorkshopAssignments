@@ -1,0 +1,32 @@
+PseduoCode for flow 1
+
+Load application home page ===>          http://www.amazon.in
+                                            |
+Search for products from home
+page and land on search results===>      By.id("twotabsearchtextbox")= handbags
+page                                        | Sendkeys(Keys.ENTER)
+
+Landing in search results page  ===>     Result page loaded
+                                            |product click
+
+Add any product to cart and proceed ==>  By.id("result_5").click()
+further to login page                         | item redirected to nextpage   
+                                         By.id("add-to-cart-button")
+                                              |
+ Proceeding to login page ==>           By.id("nav-link-yourAccount").click()
+      |                                        |                                             
+      |->username(email or phnum)           By.id("ap_email").sendkeys("8296776369")
+      |->password                           By.id("ap_password")
+                                               |
+                                               |login with password or OTP
+                                               |enter OTP manually 
+
+                                            By.id("continue").click() 
+                                               |
+                                               |
+To land in paymentpage                         |
+(click on cart button       ==>             By.id("nav-cart").click()
+ from topbar in homepage)                      |
+                                               |
+                                            By.name("proceedTocheckOut").click()
+                                             (redirects to payment page)

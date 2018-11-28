@@ -1,0 +1,45 @@
+Manual test Scenarios :
+
+Scenario 1:
+
+Appointment date should start from 01-09-2017 and end by  08-10-2017  ==> important
+
+Scenario 2 :
+
+Appointment date should start from 12-12-2017 and end by 18-12-2017   ==> important
+
+Scenario 3 :
+
+Appointment date should start from  08-10-2017 ,12-12-2017 and end by 18-12-2017  ==>important
+
+Scenario 4:
+
+( Equivalence partioning  less than 01-09-2017)
+Appointment date should not start from 31-08-2017 ==> good to test
+
+
+
+Scenario 5:
+Date should present between 04-10-2017 and 08-10-2017  ==> important
+
+scenario 6:
+Appointment date should not present between 08-10-2017  and 12-12-2017  ==> important
+
+scenario 7:
+Appointment date should not exceed 18-12-2017    ==> good to test
+
+scenario 8:
+Appointment date can be changed from 04-10-2017 to 05-10-2017 or (between 12-12-2017,18-12-2017,08-10-2017)  ==> Critical
+Changing the appointments in available dates are critical scenario
+
+scenario 9:
+Appointments can be deleted on any dates ==> good to test 
+
+
+
+
+
+
+
+
+
